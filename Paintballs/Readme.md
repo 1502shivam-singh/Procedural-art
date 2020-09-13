@@ -2,4 +2,4 @@
 
 A screen full of paintballs, and they follow your cursor too 🐾🐾 
 
-![hippo](https://media.giphy.com/media/gdq0VwnJouZG8gQsRX/giphy.gif)
+![image](https://github.com/1502shivam-singh/Flutter/blob/master/Checkd/Build/app/generated/Paintballs.gif)
