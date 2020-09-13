@@ -1,2 +1,3 @@
-# Creative-universe
-All about art and the universe
+# Procedural-art
+
+Procedurally generated art.  
