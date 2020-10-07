@@ -13,3 +13,5 @@ Now some more sectors -
 Now without the circle - 
 
 ![gif](https://media.giphy.com/media/Jcy4oNjdtyLGNWFL8J/giphy.gif)
+
+Fully custom geometric design - have a peek at code to find out more 
