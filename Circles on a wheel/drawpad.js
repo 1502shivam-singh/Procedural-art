@@ -1,4 +1,4 @@
-let shape, context, cx, cy, d = 15;
+let context, cx, cy, d = 15, dia = 400, centerX = 800, centerY = 300, sectors = 10;
 
 function setup()
 {
@@ -7,20 +7,24 @@ function setup()
   context.mouseOver(circleResize);
 }
 
+
+
 function draw() 
 {
   background(255,2,255);
   strokeWeight(2);
-  d = map(abs(sin(frameCount*0.016)), 0, 1, -85, 85);
+  d = map(abs(sin(frameCount*0.01)), 0, 1, 5, (dia/2)-15);
   //circle(random(100, 300), random(100, 300), abs(sin(frameCount*0.05)*100));
-  circle(300, 300, 200);
-  for(let i = 0; i<100; i++)
+  circle(centerX, centerY, dia);
+  for(let i = 0; i<sectors; i++)
   {
-    circle(100*sin(TWO_PI/50*i)+300, 100*cos(TWO_PI/50*i)+300, 10);
-    //line(300, 300, (100*sin(TWO_PI/10*i)+300), (100*cos(TWO_PI/10*i)+300));
-
-    cx = 300 + (d)*sin(TWO_PI/50*i);
-    cy = 300 + (d)*cos(TWO_PI/50*i);
+    //circle((dia/2)*sin(TWO_PI/sectors*i)+centerX, (dia/2)*cos(TWO_PI/sectors*i)+centerY, 10);
+    line(centerX, centerY, ((dia/2)*sin(TWO_PI/sectors*i)+centerX), ((dia/2)*cos(TWO_PI/sectors*i)+centerY));
+   
+    circle((dia/2)*sin(TWO_PI/sectors*i)+centerX, (dia/2)*cos(TWO_PI/sectors*i)+centerY, 10);
+   
+    cx = centerX + (d)*sin(TWO_PI/sectors*i);
+    cy = centerY + (d)*cos(TWO_PI/sectors*i);
 
     circle(cx, cy, 30);
   }
@@ -46,3 +50,5 @@ function circleResize()
 {
   context.pause();
 }
+
+
