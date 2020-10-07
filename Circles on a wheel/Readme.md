@@ -2,16 +2,17 @@
 
 Creates the well known simulation involving circles going up and down on spokes of a wheel<br>
 
-Firstly with lesser sectors - 
+<strong>Firstly with lesser sectors -</strong> 
 
 ![gif](https://media.giphy.com/media/34811o1WAKMMi6jj2q/giphy.gif)
 
-Now some more sectors - 
+<strong>Now some more sectors -</strong> 
 
 ![gif](https://media.giphy.com/media/17cxZ9mKrS7jmum8eX/giphy.gif)
 
-Now without the circle - 
+<strong>Now without the circle - </strong>
 
 ![gif](https://media.giphy.com/media/Jcy4oNjdtyLGNWFL8J/giphy.gif)
 
-Fully custom geometric design - have a peek at code to find out more 
+Fully custom geometric illustrations-have a peek at code to find out more 😎
+
